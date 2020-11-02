@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="appnicole.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#9F22D2" Padding="24" CornerRadius="0">
+            <Label Text="Добро пожаловать!" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+        <Label Text="Tere tulemast" FontSize="Title" Padding="44,20,44,20"/>
+        <Label Text="Minu esmene app" FontSize="16" Padding="30,0,30,0"/>
+        <Label FontSize="16" Padding="30,24,30,0">
+            <Label.FormattedText>
+                <FormattedString>
+                    <FormattedString.Spans>
+                        <Span Text="TTHK "/>
+                        <Span Text="lol, че зыришь, а?" FontAttributes="Bold"/>
+                    </FormattedString.Spans>
+                </FormattedString>
+            </Label.FormattedText>
+        </Label>
+    </StackLayout>
+
+</ContentPage>

@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="appnicole.Valguotoor">
+    <ContentPage.Content>
+        <StackLayout >
+            <Frame x:Name="pun" BackgroundColor="Black" CornerRadius="100" Padding="80" Margin="80,0,80,0">
+                <Label x:Name="Red"
+                   Text="red"
+                       FontSize="Large"
+                   />
+            </Frame>
+            <Frame BackgroundColor="Black" CornerRadius="100" Padding="80" Margin="80,0,80,0" x:Name="gre">
+                <Label x:Name="Yellow"
+                   Text="yellow"
+                       FontSize="Large"
+                   />
+            </Frame >
+            <Frame  BackgroundColor="Black"  x:Name="kol" CornerRadius="100" Padding="80" Margin="80,0,80,0">
+                <Label x:Name="Green"
+                   Text="green"
+                       FontSize="Large"
+                   />
+            </Frame>
+            <StackLayout Orientation="Horizontal">
+                <Button x:Name="On"  
+                    Text="Sisse"
+                    BackgroundColor="Green"
+                    BorderWidth="2"
+                    FontSize="Large"
+                    FontAttributes="Bold"
+                        HorizontalOptions="StartAndExpand"
+                        Clicked="On_Clicked"
+                        />
+                <Button x:Name ="Off" Text="Välja"
+                    BackgroundColor="Red"
+                    BorderWidth="2"
+                    FontSize="Large"
+                    FontAttributes="Bold"
+                        HorizontalOptions="EndAndExpand"
+                        Clicked="Off_Clicked"
+                        />
+
+
+            </StackLayout >
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

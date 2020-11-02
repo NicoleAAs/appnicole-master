@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="appnicole.stackpage">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical">
+            <Label x:Name="lbl"
+                   Text=" rtrt"
+                VerticalOptions="Start" 
+                HorizontalOptions="CenterAndExpand" />
+            <StackLayout Orientation="Horizontal">
+                <Button x:Name="btn"
+                    Text="Не нажимай сюда!" 
+                    BackgroundColor="#A243A8"
+                    BorderColor="#C05B6D"
+                    BorderWidth="2"
+                    FontSize="Large"
+                    Clicked="btn_Clicked"
+                    FontAttributes="Bold"
+                    HorizontalOptions="Start">
+
+
+                </Button>
+                <Button x:Name="btn2"
+                    Text="0" 
+                    BackgroundColor="#A243A8"
+                    BorderColor="#C05B6D"
+                    BorderWidth="2"
+                    FontSize="Large"
+                    Clicked="btn2_Clicked"
+                    FontAttributes="Bold"
+                    HorizontalOptions="End">
+                </Button>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
